@@ -10,67 +10,61 @@
 </head>
 <body>
         <div class="header">
-             <!-- Insert code for Sign Up, Sign In button here. 
-               Add code for "ScriBBler" heading and the sub-heading -->
+             <!--code for Sign Up, Sign In button here. 
+               code for "ScriBBler" heading and the sub-heading -->
                <p class = "logo-title">ScriBBler</p>
             <p class = "sub-title">Explore, imagine, create</p>
             <div class="header-right">
                 <input class="topButtons" type="button" value="Sign In" onclick="funSignIn()">
                 <input class="topButtons1"  type="button" value="Sign Up" onclick="funSignUp()">
-                
             </div>
         </div>
 
     <div class="blogContent">
         <div id="blogTitle" class="blogTite">
-        
-        <textarea id="textarea1" rows="1" cols="30" readonly>The legacy of Jimi Hendrix</textarea>
+            <textarea id="textarea1" rows="1" cols="30" readonly>The legacy of Jimi Hendrix</textarea>
+        </div>
     </div>
 
-<div class="blogAuthor">
+    <div class="blogAuthor">
 
-    <!-- Insert code for Edit/Save button and  -->
+         <!-- code for Edit/Save button and  -->
 
-    <p id="blogAuth">Jimi</p>
-    <button class="edit-btn" onclick="funEdit()">Edit</button>
-    <button class="save-btn" onclick="funSave()">Save</button>
-   
-</div>
+         <p id="blogAuth">Jimi</p>
+         <button class="edit-btn" onclick="funEdit()">Edit</button>
+        <button class="save-btn" onclick="funSave()">Save</button>
+    </div>
 
-
-<div class="blogText">
+ <!-- code for Like button, Comment button, Comment box here-->
+    <div class="blogText">
     
-    <span id="blogBody">
+        <span id="blogBody">
             <textarea id="textarea" readonly>Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had ever ventured before. His boundless drive, technical ability and creative application of such effects as distortion forever transformed the sound of rock and roll. While creating his unique musical voice and guitar style, Hendrix synthesized diverse genres, including blues, R&B, soul, British rock, American folk music, 1950s rock and roll, psychedelic and jazz. Hendrix favored overdriven amplifiers with high volume and gain.[119] He was instrumental in developing the previously undesirable technique of guitar amplifier feedback, and helped to popularize use of the wah-wah pedal in mainstream rock.[348] He rejected the standard barre chord fretting technique used by most guitarists in favor of fretting the low 6th string root notes with his thumb.[349] He applied this technique during the beginning bars of "Little Wing", which allowed him to sustain the root note of chords while also playing melody. This method has been described as piano style, with the thumb playing what a pianist's left hand would play and the other fingers playing melody as a right hand.[350] Having spent several years fronting a trio, he developed an ability to play rhythm chords and lead lines together, giving the audio impression that more than one guitarist was performing.[351][nb 41] He was the first artist to incorporate stereophonic phasing effects in rock music recordings.[354] Holly George-Warren of Rolling Stone commented: "Hendrix pioneered the use of the instrument as an electronic sound source. Players before him had experimented with feedback and distortion, but Hendrix turned those effects and others into a controlled, fluid vocabulary every bit as personal as the blues with which he began."[3][nb 42] Aledort wrote: "In rock guitar, there are but two eras � before Hendrix and after Hendrix."
-        </textarea>
-    </span>
-    <button class="like-btn" onclick="funLike()">Like</button>
-    <p id="commentTitle">Be the first one to Like this!</p>
-    <textarea id="postComment"  placeholder="Leave the comment .."></textarea>
-    <button class="comment-btn" onclick="funComment()">Comments</button>
-    <h5>All Comments</h5>
-    <section>
-        <div id="commentList">
-            
-                        
+            </textarea>
+        </span>
+        <button class="like-btn" onclick="funLike()">Like</button>
+        <p id="commentTitle">Be the first one to like this!</p>
+        <textarea id="postComment"  placeholder="Leave a comment .."></textarea>
+        <button class="comment-btn" onclick="funComment()">Comments</button>
+        <h5>All Comments</h5>
+         <section>
+            <div id="commentList">
+        
+             </div>
+         </section>
+    </div>
 
-        </div>
-    </section>
-</div>
-
-    <!-- Insert code for Like button, Comment button, Comment box here-->
-
-
+   <!-- code for Sign In modal here -->
     <div id="myModal" class="modal fade">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true" onclick="funClose()">&times;</button>
                     <h4>Get Started</h4>
                 </div>
 
                 <div class="modal-body">
-                    <form action="">
+                    <form>
                         <label for="name">Full Name</label>
                         <input name="name" type="text" placeholder="Enter Full Name" required />
                         <label for="username">Username</label>
@@ -87,34 +81,32 @@
             </div>
         </div>
     </div>
-</div>
 
+
+<!--  code for Sign Up modal here -->
     <div id="myModal1" class="modal fade">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4>Welcome Back!</h4>
-                    </div>
-    
-                    <div class="modal-body">
-                        <form action="">
-                            <label for="username">Username</label>
-                           <input type="text" name="username" placeholder="Enter User Name" required />
-                            <label for="password"> Password</label>
-                            <input type="password" name="password" placeholder="Enter Pasword" required />
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="submit" value="Submit" class="btn-default" data-dismiss="modal" >Sign In</button>
-                    </div>
-                    <h4 style="text-align: center; font-family: Arial, Helvetica, sans-serif"> Not a Member? <a style="color:blue;font-weight:bold"> Sign Up </a></h4>
-                    
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true" onclick="funClose()">&times;</button>
+                    <h4>Welcome Back!</h4>
                 </div>
+    
+                <div class="modal-body">
+                    <form action="">
+                        <label for="username">Username</label>
+                        <input type="text" name="username" placeholder="Enter User Name" required />
+                        <label for="password"> Password</label>
+                        <input type="password" name="password" placeholder="Enter Pasword" required />
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" value="Submit" class="btn-default" data-dismiss="modal" >Sign In</button>
+                </div>
+                <h4 style="text-align: center; font-family: Arial, Helvetica, sans-serif"> Not a Member? <a style="color:blue;font-weight:bold" onclick="funSignUp()";> Sign Up </a></h4>
             </div>
        </div>
     </div>
-
 
     <script src="..\js\post.js" defer></script>
     <script src="..\js\header.js">             
