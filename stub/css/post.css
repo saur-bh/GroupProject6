@@ -1,15 +1,13 @@
-
-
 .blogTite {
     font-size: 150%;
     font-family:  'Trebuchet MS', sans-serif;
     font-weight: bold;
-    
 }
+
 .blogText {
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     position : absolute;
-     top: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position : absolute;
+    top: 25%;
 
 }
 .blogAuthor {
@@ -18,6 +16,7 @@
     font-size: 30px;
     
 }
+
 .blogContent{
     text-align: center;
 }
@@ -31,7 +30,6 @@
 
  .edit-btn{
     position : absolute;
-    
     top: 18%;
     right : 8%;
     width: 50px;
@@ -39,12 +37,12 @@
     border : 0px;
     background :rgb(241, 117, 117);
     color: white;
+    font-weight: bold;
 }
 
 .blogAuthor .save-btn{
     display: none;
     position : absolute;
-    
     top: 18%;
     right : 8%;
     width: 50px;
@@ -52,16 +50,15 @@
     border : 0px;
     background :rgb(241, 117, 117);
     color: white;
+    font-weight: bold;
 }
 
 #blogBody textarea{
-    
     border: 0px;
     width: 1300px;
     height : 210px;
     text-align: justify;
     text-justify: inter-word;
-
 }
 
 #textarea1{
@@ -79,26 +76,26 @@
     position: absolute;
     left : 0px;
     top : 220px;
-    
-    width: 50px;
+     width: 50px;
     height: 30px; 
     border : 0px;
     background :rgb(241, 117, 117);
     color: white;
+    font-weight: bold;
 }
 
 #commentTitle{
     position: absolute;
     left : 0px;
-    top : 110%;
-    
-
+    top : 115%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
 }
 
 #postComment{
     position: absolute;
     left : 0px;
-    top : 130%;
+    top : 135%;
     width: 40%;
     height : 15%;
     
@@ -107,23 +104,25 @@
 .comment-btn{
     position: absolute;
     left : 0px;
-    top : 150%;
-    
+    top : 160%;
     width: 80px;
     height: 30px; 
     border : 0px;
     background :rgb(241, 117, 117);
     color: white;
+    font-weight: bold;
 }
+
 h5{
     position: absolute;
     left : 0px;
-    top : 170%; 
+    top : 170%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
 }
 
 #commentList{
     padding: 1%;
-    
     position: absolute;
     left : 0px;
     top : 190%;
@@ -135,14 +134,7 @@ h5{
 #comment{
     padding: 1%;
     margin : 1%;
-    
     background: white;
     text-align: left;
 }
 
-
-
-
-
-
-/* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
