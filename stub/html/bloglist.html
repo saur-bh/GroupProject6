@@ -2,9 +2,14 @@
 <html>
 
 <head>
-    <link href='..\css\bloglist.css' rel='stylesheet' type='text/css'>    
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='..\css\bloglist.css' rel='stylesheet' type='text/css'>  
+      
     <link href='..\css\header.css' rel='stylesheet' type='text/css'>
     <link href='..\css\font.css' rel='stylesheet' type='text/css'>
+    
     <link rel="stylesheet" href="..\font-awesome-4.7.0/css/font-awesome.min.css">
     <style>
     </style>
@@ -12,100 +17,51 @@
 <body>
     <div id="main-container-div">
         <div class="header">
-                                
-            <!-- code for Sign Up, Sign In button here. 
-                 Add code for "ScriBBler" heading and the sub-heading -->
-                 <p class = "logo-title">ScriBBler</p>
+                <p class = "logo-title">ScriBBler</p>
                 <p class = "sub-title">Explore, imagine, create</p>
                 <div class="header-right">
+                    <input class="topButtons"  type="button" value="Sign Up" onclick="funSignUp();">
                     <input class="topButtons" type="button" value="Sign In" onclick="funSignIn();">
-                    <input class="topButtons1"  type="button" value="Sign Up" onclick="funSignUp();">
-                   
                 </div>
+                                
+            <!-- Insert code for Sign Up, Sign In button here. 
+                 Add code for "ScriBBler" heading and the sub-heading -->
 
         </div>
     </div>
-<div class="allPostsContainer">
-    <div class="post">
-        <div class="post-left">
-            <p class="post-username">Jimi</p>
-        </div>
-        <div class="post-content">
-            <!-- code for Trash icon here -->
-            <i class="fa fa-trash" style="position: absolute;right: 0%; top: 10%; border: 0px; width:30px;" onclick="funDisplay()";></i>
-            <p class="post-title">Hello there ! This is Post 1. </p>
-            <p class="post-desc">Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had ever ventured before. His boundless drive, technical ability and creative application of such effects as distortion forever transformed the sound of rock and roll. While creating his unique musical voice and guitar style, Hendrix synthesized diverse genres, including blues, R&B, soul, British rock, American folk music, 1950s rock and roll, psychedelic and jazz.</p>
-            <button class="btn" style="position: absolute;right: 2%; top: 80%;border: 0px; width:30px;" onclick="nextPage()";><i class="fa fa-ellipsis-h" ></i></button>
-            <!-- code for ... icon here -->
+    <div>
 
-        </div>
+        <!-- Insert code for Sign In modal here -->
+
     </div>
 
-    <div class="post">
-        <div class="post-left">
-            <p class="post-username">Jimi</p>
-        </div>
-        <div class="post-content">
+    <div>
 
-            <!--code for Trash icon here -->
-            <i class="fa fa-trash" style="position: absolute;right: 0%; top: 10%; border: 0px; width:30px;" onclick="funDisplay()";></i>
-            <p class="post-title">Hello there ! This is Post 2. </p>
-             <p class="post-desc">Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had ever ventured before. His boundless drive, technical ability and creative application of such effects as distortion forever transformed the sound of rock and roll. While creating his unique musical voice and guitar style, Hendrix synthesized diverse genres, including blues, R&B, soul, British rock, American folk music, 1950s rock and roll, psychedelic and jazz.</p>
-            <!-- code for ... icon here -->
-            <button class="btn" style="position: absolute;right: 2%; top: 80%;border: 0px; width:30px;" onclick="nextPage()";><i class="fa fa-ellipsis-h" ></i></button>
-        </div>
+        <!-- Insert code for Sign Up modal here -->
+
     </div>
 
-    <div class="post">
-        <div class="post-left">
-            <p class="post-username">Jimi</p>
-        </div>
-        <div class="post-content">
-            <!-- code for Trash icon here -->
-            <i class="fa fa-trash" style="position: absolute;right: 0%; top: 10%; border: 0px; width:30px;" onclick="funDisplay()";></i>
-            <p class="post-title">Hello there ! This is Post 3. </p>
-            <p class="post-desc">Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had ever ventured before. His boundless drive, technical ability and creative application of such effects as distortion forever transformed the sound of rock and roll. While creating his unique musical voice and guitar style, Hendrix synthesized diverse genres, including blues, R&B, soul, British rock, American folk music, 1950s rock and roll, psychedelic and jazz.</p>
-            <!-- code for ... icon here -->
-            <button class="btn" style="position: absolute;right: 2%; top: 80%;border: 0px; width:30px;" onclick="nextPage()";><i class="fa fa-ellipsis-h" ></i></button>
-        </div>
+    <div class="allPostsContainer">
+            
     </div>
-    <div class="post">
-        <div class="post-left">
-            <p class="post-username">Jimi</p>
+
+        <div>
+
+            <!-- Insert code for delete modal here -->
+            
         </div>
-        <div class="post-content">
-          <!-- code for Trash icon here -->
-            <i class="fa fa-trash" style="position: absolute;right: 0%; top: 10%; border: 0px; width:30px;" onclick="funDisplay()";></i>
-            <p class="post-title">Hello there ! This is Post 4. </p>
-            <p class="post-desc">Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had ever ventured before. His boundless drive, technical ability and creative application of such effects as distortion forever transformed the sound of rock and roll. While creating his unique musical voice and guitar style, Hendrix synthesized diverse genres, including blues, R&B, soul, British rock, American folk music, 1950s rock and roll, psychedelic and jazz.</p>
-           <!-- code for ... icon here -->
-           <button class="btn" style="position: absolute;right: 2%; top: 80%;border: 0px; width:30px;" onclick="nextPage()";><i class="fa fa-ellipsis-h" ></i></button>
-        </div>
-    </div>
-    <div class="post">
-            <div class="post-left">
-                <p class="post-username">Jimi</p>
-            </div>
-        <div class="post-content">
-            <!-- code for Trash icon here -->
-            <i class="fa fa-trash" style="position: absolute;right: 0%; top: 10%; border: 0px; width:30px;" onclick="funDisplay()";></i>
-            <p class="post-title">Hello there ! This is Post 5. </p>
-            <p class="post-desc">Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had ever ventured before. His boundless drive, technical ability and creative application of such effects as distortion forever transformed the sound of rock and roll. While creating his unique musical voice and guitar style, Hendrix synthesized diverse genres, including blues, R&B, soul, British rock, American folk music, 1950s rock and roll, psychedelic and jazz.</p>
-           <!-- code for ... icon here -->
-            <button class="btn" style="position: absolute;right: 2%; top: 80%;border: 0px; width:30px;" onclick="nextPage()";><i class="fa fa-ellipsis-h" ></i></button>
-        </div>
-    </div>
- <!-- code for Sign In modal here -->
-    <div id="myModal" class="modal fade">
+        
+</div>
+<div id="myModal" class="modal fade">
         <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <div class="modal-content2">
+                <div class="modal-header2">
+                    <button type="button" class="close2" data-dismiss="modal" aria-hidden="true">&times;</button>
                     <h4>Get Started</h4>
                 </div>
-        
-                <div class="modal-body">
-                   <form>
+
+                <div class="modal-body2">
+                    <form action="">
                         <label for="name">Full Name</label>
                         <input name="name" type="text" placeholder="Enter Full Name" required />
                         <label for="username">Username</label>
@@ -116,52 +72,56 @@
                         <input type="password" name="conpassword" placeholder="Confirm Password" required />
                     </form>
                 </div>
-                <div class="modal-footer">
+                <div class="modal-footer2">
                     <button type="submit" value="Submit" class="btn-default" data-dismiss="modal" >Sign Up</button>
                 </div>
             </div>
         </div>
     </div>
-  <!--  code for Sign Up modal here -->
-    <div id="myModal1" class="modal fade">
+</div>
+<div id="myModal1" class="modal fade">
         <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <div class="modal-content2">
+                <div class="modal-header2">
+                    <button type="button" class="close2" data-dismiss="modal" aria-hidden="true">&times;</button>
                     <h4>Welcome Back!</h4>
                 </div>
-                <div class="modal-body">
+
+                <div class="modal-body2">
                     <form action="">
                         <label for="username">Username</label>
-                        <input type="text" name="username" placeholder="Enter User Name" required />
+                       <input type="text" name="username" placeholder="Enter User Name" required />
                         <label for="password"> Password</label>
                         <input type="password" name="password" placeholder="Enter Pasword" required />
                     </form>
                 </div>
-                <div class="modal-footer">
+                <div class="modal-footer2">
                     <button type="submit" value="Submit" class="btn-default" data-dismiss="modal" >Sign In</button>
-                 </div>
-                   <h4 style="text-align: center; font-family: Arial, Helvetica, sans-serif"> Not a Member? <a style="color:blue;font-weight:bold"> Sign Up </a></h4>
+                </div>
+                <h4 style="text-align: center; font-family: Arial, Helvetica, sans-serif;color:black;"> Not a Member? <a style="color:blue;font-weight:bold"> Sign Up </a></h4>
+                
             </div>
         </div>
    </div>
+</div>
 
- <!-- code for delete modal here -->
-    <div id="myModal3" class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content2">
+<div id="myModal2" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content2">
                 <div class="modal-body2">
-                    <label>Are you sure you want to delete the post ?</label>
-                </div>
-                 <div class="modal-footer2">
-                   <button type="submit" value="Submit" class="yes-btn" data-dismiss="modal" >Yes</button>
-                   <button type="submit" value="Submit" class="No-btn" onclick="hideDisplay();" data-dismiss="modal" >No</button>
-                 </div>
-             </div>
-         </div>
+                <label>Are you sure you want to delete the post ?</label>
+            </div>
+            <div class="modal-footer2">
+                <button type="submit" value="Submit" class="yes-btn" data-dismiss="modal" >Yes</button>
+                <button type="submit" value="Submit" class="No-btn" onclick="hideDisplay();" data-dismiss="modal" >No</button>
+            </div>
         </div>
-        
- <script src="..\js\bloglist.js">  </script>
+    </div>
+</div>
+</div>
+
+
+    <script src="..\js\bloglist.js">  </script>
     <script src="..\js\header.js"> </script>
 </body>
 

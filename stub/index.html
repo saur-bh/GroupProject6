@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Place all CSS for header in this file -->
     <link href='css\header.css' rel='stylesheet' type='text/css'>
 
@@ -13,13 +14,11 @@
 <body>
     <div id="main-container-div">
         <div class="header">
-             <!-- code for Sign Up, Sign In button here. 
-                 Add code for "ScriBBler" heading and the sub-heading -->
             <p class = "logo-title">ScriBBler</p>
             <p class = "sub-title">Explore, imagine, create</p>
             <div class="header-right">
-                 <input class="topButtons" type="button" value="Sign In" onclick="funSignIn()">
-                <input class="topButtons1"  type="button" value="Sign Up" onclick="funSignUp()">
+                <input class="topButtons"  type="button" value="Sign Up" onclick="funSignUp()">
+                <input class="topButtons" type="button" value="Sign In" onclick="funSignIn()">
             </div>
         </div>
            
@@ -29,7 +28,7 @@
 
         </div>
     </div>
- <!-- code for Sign In modal here -->
+
     <div id="myModal" class="modal fade">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -57,53 +56,56 @@
             </div>
         </div>
     </div>
-  <!--  code for Sign Up modal here -->  
-    <div id="myModal1" class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4>Welcome Back!</h4>
-                </div>
-                <div class="modal-body">
-                    <form action="">
-                        <label for="username">Username</label>
-                        <input type="text" name="username" placeholder="Enter User Name" required />
-                        <label for="password"> Password</label>
-                        <input type="password" name="password" placeholder="Enter Pasword" required />
-                    </form>
-                </div>
-                <div class="modal-footer">
-                       <button type="submit" value="Submit" class="btn-default" data-dismiss="modal" >Sign In</button>
-                 </div>
-                   <h4 style="text-align: center; font-family: Arial, Helvetica, sans-serif"> Not a Member? <a style="color:blue;font-weight:bold"> Sign Up </a></h4>
-            </div>
-       </div>
-    </div>
+    
+        <div id="myModal1" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4>Welcome Back!</h4>
+                        </div>
         
-<!--  code for modal here --> 
-   <div id="myModal2" class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header" style="border: 0px;">
-                    <button type="button" class="close">&times;</button>
-                    <h4>Pen your Post</h4>
+                        <div class="modal-body">
+                            <form action="">
+                                <label for="username">Username</label>
+                               <input type="text" name="username" placeholder="Enter User Name" required />
+                                <label for="password"> Password</label>
+                                <input type="password" name="password" placeholder="Enter Pasword" required />
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" value="Submit" class="btn-default" data-dismiss="modal" >Sign In</button>
+                        </div>
+                        <h4 style="text-align: center; font-family: Arial, Helvetica, sans-serif"> Not a Member? <a style="color:blue;font-weight:bold"> Sign Up </a></h4>
+                        
+                    </div>
                 </div>
-                <div class="modal-body" id="modalbody">
-                    <form>
-                        <label>Title</label>
-                        <input type="text" style="width:70%">
-                        <label style="padding-top:10%;">Content</label>
-                        <textarea cols="10" rows="10"></textarea>
-                    </form>
-                </div> 
-                <div class="modal-footer">
-                    <button type="submit" class="btn-create">Create</button>
-                </div>
-            </div>
+           </div>
         </div>
-    </div>
+
+        <div id="myModal2" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header" style="border: 0px;">
+                            <button type="button" class="close">&times;</button>
+                            <h4>Pen your Post</h4>
+                        </div>
         
+                        <div class="modal-body" id="modalbody">
+                            <form>
+                                <label>Title</label>
+                                <input type="text" style="width:70%">
+                                <label style="padding-top:10%;">Content</label>
+                                <textarea cols="10" rows="10"></textarea>
+                            </form>
+                        </div> 
+                        <div class="modal-footer">
+                                <button type="submit" class="btn-create">Create</button>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
 
 	<!-- Place all Javascript for header in this file -->
 	<script src="js\header.js"></script>

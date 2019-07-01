@@ -1,19 +1,148 @@
+
+
 .blogTite {
     font-size: 150%;
-    font-family: 'Abel', sans-serif;
+    font-family:  'Trebuchet MS', sans-serif;
     font-weight: bold;
+    
 }
 .blogText {
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     position : absolute;
+     top: 25%;
 
 }
 .blogAuthor {
     padding: 0px 0px 0px 10px;
-    font-family: 'Niconne', cursive;
+    font-family:  'Satisfy', cursive; 
     font-size: 30px;
+    
 }
 .blogContent{
+    text-align: center;
+}
+
+#blogAuth{
+    position : absolute;
+    top : 10%;
+    left : 0px;
 
 }
+
+ .edit-btn{
+    position : absolute;
+    
+    top: 18%;
+    right : 8%;
+    width: 50px;
+    height: 30px; 
+    border : 0px;
+    background :rgb(241, 117, 117);
+    color: white;
+}
+
+.blogAuthor .save-btn{
+    display: none;
+    position : absolute;
+    
+    top: 18%;
+    right : 8%;
+    width: 50px;
+    height: 30px; 
+    border : 0px;
+    background :rgb(241, 117, 117);
+    color: white;
+}
+
+#blogBody textarea{
+    
+    border: 0px;
+    width: 1300px;
+    height : 210px;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+#textarea1{
+    position: absolute;
+    top: 80px;
+    left: 35%;
+    border : 0px;
+    font-family:  'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    
+}
+
+.like-btn{
+    position: absolute;
+    left : 0px;
+    top : 220px;
+    
+    width: 50px;
+    height: 30px; 
+    border : 0px;
+    background :rgb(241, 117, 117);
+    color: white;
+}
+
+#commentTitle{
+    position: absolute;
+    left : 0px;
+    top : 110%;
+    
+
+}
+
+#postComment{
+    position: absolute;
+    left : 0px;
+    top : 130%;
+    width: 40%;
+    height : 15%;
+    
+}
+
+.comment-btn{
+    position: absolute;
+    left : 0px;
+    top : 150%;
+    
+    width: 80px;
+    height: 30px; 
+    border : 0px;
+    background :rgb(241, 117, 117);
+    color: white;
+}
+h5{
+    position: absolute;
+    left : 0px;
+    top : 170%; 
+}
+
+#commentList{
+    padding: 1%;
+    
+    position: absolute;
+    left : 0px;
+    top : 190%;
+    width:50%;
+    background: rgb(197, 196, 196); 
+
+}
+
+#comment{
+    padding: 1%;
+    margin : 1%;
+    
+    background: white;
+    text-align: left;
+}
+
+
+
+
+
 
 /* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
